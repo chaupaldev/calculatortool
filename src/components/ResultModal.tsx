@@ -50,7 +50,7 @@ const ResultModal = ({ isOpen, score, onClose }: Props) => {
             </div>
 
             {/* Heart image */}
-            <div className="relative w-full h-full sm:h-96 mb-4 sm:mb-6">
+            <div className="relative w-full h-full mb-4 sm:mb-6">
               <img
                 src={romanticHearts}
                 alt="Romantic hearts"

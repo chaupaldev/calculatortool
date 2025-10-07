@@ -11,11 +11,13 @@ const LoadingModal = ({ isOpen }: Props) => {
       <div className="bg-white rounded-3xl p-6 max-w-xs w-full shadow-2xl flex flex-col items-center overflow-hidden">
         {/* Portrait movie image */}
         <div className="relative w-full h-full mb-4">
+           <a href="https://www.chaupal.com/movie/soch-toh-parey" className="text-pink-600 hover:underline">
           <img
             src={romanticMovie}
             alt="Romantic movie"
             className="w-full h-full object-cover rounded-2xl shadow-lg"
           />
+          </a>
           {/* Gradient overlay for cinematic feel */}
           <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent rounded-2xl" />
         </div>

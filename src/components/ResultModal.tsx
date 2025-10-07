@@ -1,6 +1,6 @@
 import { X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import romanticHearts from "../assets/movie2.jpeg";
+import romanticHearts from "../assets/Movie.webp";
 
 interface Props {
   isOpen: boolean;

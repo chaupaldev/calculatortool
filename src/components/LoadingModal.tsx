@@ -1,4 +1,4 @@
-import romanticMovie from "../assets/movie1.jpeg";
+import romanticMovie from "../assets/Movie.webp";
 import { Clock } from "lucide-react";
 
 interface Props { isOpen: boolean; }

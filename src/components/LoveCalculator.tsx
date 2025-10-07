@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Heart } from "lucide-react"; // Optional: Using an icon for the heart
-import banner from "../assets/banner.jpg";
+import banner from "../assets/Banner.webp";
 
 interface Props {
   onCalculate: (name1: string, name2: string) => void;

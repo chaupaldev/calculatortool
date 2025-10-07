@@ -50,7 +50,7 @@ const ResultModal = ({ isOpen, score, onClose }: Props) => {
             </div>
 
             {/* Heart image */}
-            <div className="relative w-full h-64 sm:h-96 mb-4 sm:mb-6">
+            <div className="relative w-full h-full sm:h-96 mb-4 sm:mb-6">
               <img
                 src={romanticHearts}
                 alt="Romantic hearts"
@@ -63,7 +63,7 @@ const ResultModal = ({ isOpen, score, onClose }: Props) => {
 
             {/* Watch Now button */}
             <motion.button
-              onClick={() => window.open("#", "_blank")}
+              onClick={() => window.open("https://www.chaupal.com/movie/soch-toh-parey", "_blank")}
               className="w-full py-3 rounded-lg bg-yellow-400 text-black font-bold text-lg sm:text-xl hover:opacity-90 transition"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}

@@ -9,7 +9,7 @@ const App = () => {
   const [showResult, setShowResult] = useState(false);
   const [loveScore, setLoveScore] = useState(0);
 
-  const handleCalculate = (name1: string, name2: string) => {
+  const handleCalculate = (_name1: string, _name2: string) => {
     setShowLoading(true);
 
     // Generate random love score between 80-100

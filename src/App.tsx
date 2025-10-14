@@ -25,10 +25,10 @@ const App = () => {
   const handleCloseResult = () => setShowResult(false);
 
   return (
-    <div className="relative min-h-screen flex items-center justify-center px-4 py-12 overflow-hidden 
-                    bg-gradient-to-br from-pink-300 via-pink-200 to-red-300 
-                    before:absolute before:inset-0 before:bg-gradient-radial before:from-pink-100/40 before:to-transparent 
-                    before:animate-pulse-slow">
+   <div className="relative min-h-screen flex items-center justify-center px-4 py-12 overflow-hidden 
+                  bg-black 
+                  before:absolute before:inset-0 before:bg-gradient-radial before:from-yellow-400/20 before:to-transparent 
+                  before:animate-pulse-slow">
       
       {/* Floating hearts behind everything */}
       <FloatingHearts />
@@ -46,7 +46,7 @@ const App = () => {
 
       {/* Subtle background sparkle particles */}
       <div className="pointer-events-none absolute inset-0 z-0">
-        {[...Array(15)].map((_, i) => (
+        {[...Array(100)].map((_, i) => (
           <div
             key={i}
             className="absolute w-2 h-2 bg-yellow-200 rounded-full opacity-50 animate-sparkle"

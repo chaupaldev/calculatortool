@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Heart } from "lucide-react"; // Optional: Using an icon for the heart
+import { Sparkles } from "lucide-react"; // Optional: Using an icon for the heart
 import banner from "../assets/Banner.webp";
 
 interface Props {
@@ -21,14 +21,14 @@ const LoveCalculator = ({ onCalculate }: Props) => {
       <div className="relative z-10 w-full max-w-md mx-auto bg-white/20 backdrop-blur-lg rounded-3xl shadow-2xl p-8 border border-pink-200">
         {/* Beating Heart at the top */}
         <div className="flex justify-center mb-4">
-          <Heart
-            className="w-16 h-16 text-pink-500 animate-heartPulse"
+          <Sparkles
+            className="w-16 h-16 text-[#FFF100] animate-heartPulse"
             fill="currentColor"
           />
         </div>
 
-        <h1 className="text-4xl font-romantic text-center text-pink-600 mb-6">
-          Love Calculator 💖
+        <h1 className="text-4xl font-bold font-romantic text-center text-pink-600 mb-6">
+          Discover your festive love match
         </h1>
         <a href="https://www.chaupal.com/movie/soch-toh-parey" className="text-pink-600 hover:underline">
           <img
@@ -53,7 +53,7 @@ const LoveCalculator = ({ onCalculate }: Props) => {
             className="px-4 py-2 rounded-lg text-black text-lg focus:outline-none shadow-inner"
           />
           <button className="bg-pink-600 hover:bg-pink-700 py-3 rounded-lg text-white font-bold transition shadow-lg">
-            Calculate Love %
+            Ignite the Spark 🔥
           </button>
         </form>
         {/* Decorative Banner at the bottom */}

@@ -25,7 +25,7 @@ const LoadingModal = ({ isOpen }: Props) => {
         {/* Loading text with spinning clock */}
         <div className="flex items-center gap-3 text-pink-600 text-lg font-semibold">
           <Clock className="w-6 h-6 animate-spin" />
-          🎬 Calculating your Bomb Love
+          💖 The diyas are glowing, the chemistry is showing…
         </div>
       </div>
     </div>

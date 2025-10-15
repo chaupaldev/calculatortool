@@ -36,8 +36,8 @@ const ResultModal = ({ isOpen, score, onClose }: Props) => {
 
             {/* Love Score */}
             <div className="text-center mb-3 sm:mb-4">
-              <h2 className="text-2xl sm:text-3xl font-romantic text-yellow-900 mb-1 sm:mb-2 animate-pulse">
-                ❤️ Your Love Score ❤️
+              <h2 className="text-2xl sm:text-3xl font-romantic font-extrabold text-yellow-900 mb-1 sm:mb-2 animate-pulse">
+                💛 Your hearts glow together this Diwali 
               </h2>
               <motion.p
                 className="text-4xl sm:text-5xl font-bold text-red-600"
@@ -45,8 +45,9 @@ const ResultModal = ({ isOpen, score, onClose }: Props) => {
                 animate={{ scale: 1 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
-                {score}%
+                {score}% 
               </motion.p>
+            
             </div>
 
             {/* Glowing Diya Emoji */}

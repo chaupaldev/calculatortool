@@ -5,3 +5,22 @@
 html, body, #root {
   height: 100%;
 }
+
+@keyframes firecracker {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  70% {
+    transform: scale(1) translateY(var(--y));
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.2) translateY(calc(var(--y) * 1.2));
+  }
+}
+
+.animate-firecracker {
+  animation: firecracker 1.5s ease-out forwards;
+}

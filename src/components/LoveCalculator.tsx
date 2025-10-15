@@ -28,7 +28,7 @@ const LoveCalculator = ({ onCalculate }: Props) => {
         </div>
 
         <h1 className="text-4xl font-bold font-romantic text-center text-pink-600 mb-6">
-          Discover your festive love match
+          Discover your Diwali love match
         </h1>
         <a href="https://www.chaupal.com/movie/soch-toh-parey" className="text-pink-600 hover:underline">
           <img
